@@ -13,6 +13,12 @@
   --modal-background: #fcfcfc;
 }
 
+*,
+::before,
+::after{
+  box-sizing: border-box;
+}
+
 
 body {
   background-color: var(--white-background);
@@ -23,6 +29,23 @@ body {
   line-height: 24px;
   color: var(--text);
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding-left: 0;
+}
+
+
 
 
 .list {
