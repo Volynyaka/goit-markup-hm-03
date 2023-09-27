@@ -45,6 +45,10 @@ ul {
   padding-left: 0;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+}
 
 
 
@@ -52,7 +56,18 @@ ul {
   list-style-type: none;
 }
 
-/* Logo */
+
+/*====Header====*/
+
+    /*==Logo== */
+
+    .header{
+      border-bottom: var(--accent);
+    }
+
+    .nav-menu{
+      display:flex;
+    }
 
 .logo {
   color: var(--primary-brand);
