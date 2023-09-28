@@ -30,6 +30,10 @@ body {
   color: var(--text);
 }
 
+a {
+  text-decoration: none;
+  }
+
 h1,
 h2,
 h3,
@@ -59,14 +63,19 @@ img {
 
 /*====Header====*/
 
-    /*==Logo== */
 
     .header{
       border-bottom: var(--accent);
+      height: 72px;
+      padding: 25,5px 0;
     }
 
-    .nav-menu{
+    .container {
+      width: 1158px;
       display:flex;
+      justify-content: space-between;
+      margin: 0 auto;
+      outline: 2px solid red;
     }
 
 .logo {
