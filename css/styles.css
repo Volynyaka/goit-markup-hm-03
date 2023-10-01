@@ -83,6 +83,7 @@ img {
     .header-nav {
       display: flex;
       align-items: center;
+      
     }
 
     .logo{
@@ -113,6 +114,7 @@ img {
 .navigation-list {
   display: flex;
   gap: 40px;
+  padding: 24px 0;
 }
 .nav-link {
   color: var(--dark);
