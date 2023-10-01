@@ -66,8 +66,8 @@ img {
 
     .header{
       border-bottom: var(--accent);
-      height: 72px;
       padding: 25,5px 0;
+      border-bottom: var(--accent);
     }
 
     .container {
