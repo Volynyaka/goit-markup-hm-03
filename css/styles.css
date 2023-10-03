@@ -69,13 +69,21 @@ button {
   border-bottom: 1px solid var(--accent);
 }
 
-.container {
+.header-page {
   display: flex;
+  justify-content: space-between;
+  
+}
+
+.container {
+  
   width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: center;
+
+  
+  
   outline: 2px solid red;
 }
 
@@ -179,7 +187,8 @@ button {
   text-align: center;
   color: var(--white-background);
   max-width: 496px;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 48px;
 }
 /* Button */
@@ -192,7 +201,7 @@ button {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
-  display: block;
+  display: inline;
   min-width: 169px;
   height: 56px;
   padding: 16px 32px;
