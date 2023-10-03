@@ -47,6 +47,7 @@ p {
 ul {
   margin: 0;
   padding-left: 0;
+  list-style: none;
 }
 
 img {
@@ -69,21 +70,17 @@ button {
   border-bottom: 1px solid var(--accent);
 }
 
-.header-page {
+.header-container {
   display: flex;
   justify-content: space-between;
-  
+
 }
 
 .container {
   
-  width: 1158px;
+  max-width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
-  justify-content: center;
-
-  
-  
   outline: 2px solid red;
 }
 
@@ -201,7 +198,7 @@ button {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
-  display: inline;
+  display: block;
   min-width: 169px;
   height: 56px;
   padding: 16px 32px;
@@ -217,12 +214,40 @@ button {
 
 /* Our Preference */
 
+ .section-2 {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.list-preferences {
+  display: flex;
+  gap: 24px;
+}
+
+.item-preferences {
+  flex-basis: calc((100% - 72px)/3);
+}
+
 .subtitle {
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.4px;
   color: var(--dark);
+  margin-bottom: 8px;
 }
 .subtitle .text {
   line-height: 24px;
