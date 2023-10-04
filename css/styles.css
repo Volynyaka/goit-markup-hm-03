@@ -248,6 +248,7 @@ button {
   letter-spacing: 0.4px;
   color: var(--dark);
   margin-bottom: 8px;
+  text-align: center;
 }
 .subtitle .text {
   line-height: 24px;
@@ -255,21 +256,19 @@ button {
   color: var(--text);
 }
 
-/* What are we doing */
 
-.actions .title-text {
-  color: var(--dark);
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 1.11;
-  letter-spacing: 0.72px;
-  text-transform: capitalize;
-  text-align: center;
-}
+
 
 /* Our team */
 .team {
   background-color: var(--light);
+}
+
+.team-foto¨{
+  .team-list {
+    display: flex;
+    gap: 24px;
+  }
 }
 
 .team .title-text {
@@ -280,10 +279,14 @@ button {
   letter-spacing: 0.72px;
   text-transform: capitalize;
   text-align: center;
+  margin-bottom: 72px ;
+
+  
 }
 
 .team-foto {
   background-color: var(--white-background);
+  
 }
 
 .team-list .subtitle {
@@ -292,7 +295,8 @@ button {
   line-height: 24px;
   letter-spacing: 0.4px;
   text-align: center;
-  color: var(--dark);
+  color: var(--dark)
+  
 }
 
 .team-list .text {
@@ -300,6 +304,7 @@ button {
   letter-spacing: 0.32px;
   text-align: center;
   color: var(--text);
+  padding: 32px 0;
 }
 
 /* Footer */
