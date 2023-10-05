@@ -264,12 +264,6 @@ button {
   background-color: var(--light);
 }
 
-.team-foto¨{
-  .team-list {
-    display: flex;
-    gap: 24px;
-  }
-}
 
 .team .title-text {
   color: var(--dark);
@@ -284,9 +278,18 @@ button {
   
 }
 
+.team-list {
+  display: flex;
+  gap: 24px;
+}
+
 .team-foto {
   background-color: var(--white-background);
   
+}
+
+.employee-characteristics {
+  padding: 32px 0;
 }
 
 .team-list .subtitle {
