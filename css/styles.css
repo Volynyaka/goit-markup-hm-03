@@ -298,14 +298,18 @@ button {
   line-height: 24px;
   letter-spacing: 0.4px;
   text-align: center;
+  margin-bottom: 8px;
   color: var(--dark)
   
-}
+  }
+
+
 
 .team-list .text {
   line-height: 24px;
   letter-spacing: 0.32px;
   text-align: center;
+  ma
   color: var(--text);
   padding: 32px 0;
 }
