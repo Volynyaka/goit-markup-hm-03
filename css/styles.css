@@ -79,7 +79,6 @@ button {
   max-width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
-  
 }
 
 .header-nav {
@@ -110,7 +109,7 @@ button {
   color: var(--dark);
 }
 
-/* Navigation menu */
+/*====Navigation menu====*/
 
 .navigation-list {
   display: flex;
@@ -125,6 +124,8 @@ button {
   letter-spacing: 0.32px;
   list-style-type: none;
   text-decoration: none;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .navigation-list .nav-link:active {
@@ -136,7 +137,7 @@ button {
   color: var(--pressed-state);
 }
 
-/* address */
+/*====address====*/
 
 .list {
   display: flex;
@@ -173,6 +174,7 @@ button {
   padding: 188px 0;
 }
 
+
 .hero-title {
   font-size: 56px;
   font-weight: 700;
@@ -185,7 +187,7 @@ button {
   margin-right: auto;
   margin-bottom: 48px;
 }
-/* Button */
+/*====Button====*/
 .btn-order {
   font-family: "Roboto", sans-serif;
   color: var(--white-background);
@@ -207,6 +209,8 @@ button {
 .btn-order:focus {
   background-color: var(--pressed-state);
 }
+
+/*====section-2====*/
 
 /* Our Preference */
 
@@ -368,6 +372,3 @@ button {
 .foto-link {
   text-decoration: none;
 }
-
-
-
