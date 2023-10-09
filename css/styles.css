@@ -307,12 +307,13 @@ button {
 }
 
 /* Footer */
-.page-footer {
+.footer {
   background-color: var(--dark);
-  padding: 100px 0;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
-.page-footer.logo {
+.footer.logo {
   color: var(--primary-brand);
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -323,11 +324,11 @@ button {
   display: inline-block;
   margin-bottom: 16px;
 }
-.page-footer .some-class {
+.footer .some-class {
   color: var(--light);
 }
 
-.page-footer .text {
+.footer .text {
   line-height: 24px;
   letter-spacing: 0.32px;
   color: var(--light);
@@ -377,7 +378,7 @@ button {
   line-height: 24px;
   letter-spacing: 0.4px;
   color: var(--dark);
-  margin-bottom: 8px;
+  margin-bottom: ;
 }
 .foto-list .text {
   line-height: 24px;
