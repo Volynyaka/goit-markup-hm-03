@@ -377,6 +377,7 @@ button {
   line-height: 24px;
   letter-spacing: 0.4px;
   color: var(--dark);
+  margin-bottom: 8px;
 }
 .foto-list .text {
   line-height: 24px;
