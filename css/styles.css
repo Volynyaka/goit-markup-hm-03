@@ -73,12 +73,14 @@ button {
 .header-container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .container {
   max-width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
+
 }
 
 .header-nav {
@@ -94,7 +96,6 @@ button {
   letter-spacing: 0.54px;
   text-transform: uppercase;
   text-decoration: none;
-  display: flex;
   align-items: center;
   padding-top: 24px;
   padding-bottom: 24px;
@@ -124,6 +125,7 @@ button {
   letter-spacing: 0.32px;
   list-style-type: none;
   text-decoration: none;
+  display: block;
   padding-top: 24px;
   padding-bottom: 24px;
 }
@@ -143,7 +145,7 @@ button {
   display: flex;
   align-items: center;
   gap: 40px;
-  padding: 24px 0;
+  
 }
 
 .address-list {
@@ -248,7 +250,7 @@ button {
   letter-spacing: 0.4px;
   color: var(--dark);
   margin-bottom: 8px;
-  text-align: center;
+  
 }
 .subtitle .text {
   line-height: 24px;
@@ -277,11 +279,14 @@ button {
 .team-list {
   display: flex;
   gap: 24px;
+  
 }
 
 .team-foto {
   background-color: var(--white-background);
-  border-radius: 0px 0px 4px 4px;  
+  border-radius: 0px 0px 4px 4px;
+  flex-basis: calc((100% - 72px) / 4);
+    
 }
 
 .employee-characteristics {
@@ -303,7 +308,7 @@ button {
   letter-spacing: 0.32px;
   text-align: center;
   color: var(--text);
-  padding: 32px 0;
+  
 }
 
 /* Footer */
